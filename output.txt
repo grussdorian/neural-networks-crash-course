@@ -1,0 +1,100 @@
+data set size = 320
+hidden_size = 10
+model = MLP(input_size, [hidden_size, hidden_size, output_size])
+
+Loading MNIST dataset...
+Starting training...
+Epoch 1/20, Learning rate: 0.1
+Epoch 1/20, Loss: 12.0524
+Epoch 2/20, Learning rate: 0.1
+Epoch 2/20, Loss: 10.1778
+Epoch 3/20, Learning rate: 0.1
+Epoch 3/20, Loss: 8.6144
+Epoch 4/20, Learning rate: 0.1
+Epoch 4/20, Loss: 6.5392
+Epoch 5/20, Learning rate: 0.1
+Epoch 5/20, Loss: 4.9396
+Epoch 6/20, Learning rate: 0.08
+Epoch 6/20, Loss: 3.3635
+Epoch 7/20, Learning rate: 0.08
+Epoch 7/20, Loss: 2.7938
+Epoch 8/20, Learning rate: 0.05
+Epoch 8/20, Loss: 2.9716
+Epoch 9/20, Learning rate: 0.08
+Epoch 9/20, Loss: 2.1411
+Epoch 10/20, Learning rate: 0.01
+Epoch 10/20, Loss: 2.9536
+Epoch 11/20, Learning rate: 0.08
+Epoch 11/20, Loss: 2.4467
+Epoch 12/20, Learning rate: 0.05
+Epoch 12/20, Loss: 2.3905
+Epoch 13/20, Learning rate: 0.05
+Epoch 13/20, Loss: 1.6292
+Epoch 14/20, Learning rate: 0.0001
+Epoch 14/20, Loss: 1.5193
+Epoch 15/20, Learning rate: 0.0001
+Epoch 15/20, Loss: 1.5173
+Epoch 16/20, Learning rate: 0.0001
+Epoch 16/20, Loss: 1.5154
+Epoch 17/20, Learning rate: 0.0001
+Epoch 17/20, Loss: 1.5135
+Epoch 18/20, Learning rate: 0.0001
+Epoch 18/20, Loss: 1.5116
+Epoch 19/20, Learning rate: 0.0001
+Epoch 19/20, Loss: 1.5099
+Epoch 20/20, Learning rate: 0.0001
+Epoch 20/20, Loss: 1.5082
+Evaluating model...
+Test Accuracy: 0.2969
+
+
+data set size = 640
+hidden_size = 10
+model = MLP(input_size, [hidden_size, output_size])
+Loading MNIST dataset...
+Starting training...
+Epoch 1/20, Learning rate: 0.1
+Epoch 1/20, Loss: 12.3968
+Epoch 2/20, Learning rate: 0.1
+Epoch 2/20, Loss: 9.9667
+Epoch 3/20, Learning rate: 0.1
+Epoch 3/20, Loss: 7.9045
+Epoch 4/20, Learning rate: 0.1
+Epoch 4/20, Loss: 5.5657
+Epoch 5/20, Learning rate: 0.1
+Epoch 5/20, Loss: 3.7199
+Epoch 6/20, Learning rate: 0.08
+Epoch 6/20, Loss: 2.5156
+Epoch 7/20, Learning rate: 0.05
+Epoch 7/20, Loss: 1.8859
+Epoch 8/20, Learning rate: 0.001
+Epoch 8/20, Loss: 1.7639
+Epoch 9/20, Learning rate: 0.001
+Epoch 9/20, Loss: 1.7544
+Epoch 10/20, Learning rate: 0.001
+Epoch 10/20, Loss: 1.7452
+Epoch 11/20, Learning rate: 0.001
+Epoch 11/20, Loss: 1.7363
+Epoch 12/20, Learning rate: 0.001
+Epoch 12/20, Loss: 1.7277
+Epoch 13/20, Learning rate: 0.001
+Epoch 13/20, Loss: 1.7194
+Epoch 14/20, Learning rate: 0.001
+Epoch 14/20, Loss: 1.7115
+Epoch 15/20, Learning rate: 0.001
+Epoch 15/20, Loss: 1.7041
+Epoch 16/20, Learning rate: 0.001
+Epoch 16/20, Loss: 1.6969
+Epoch 17/20, Learning rate: 0.0001
+Epoch 17/20, Loss: 1.6905
+Epoch 18/20, Learning rate: 0.0001
+Epoch 18/20, Loss: 1.6898
+Epoch 19/20, Learning rate: 0.0001
+Epoch 19/20, Loss: 1.6892
+Epoch 20/20, Learning rate: 0.0001
+Epoch 20/20, Loss: 1.6885
+Evaluating model...
+Test Accuracy: 0.4922
+
+
+A bigger model doesn't always mean it's better
